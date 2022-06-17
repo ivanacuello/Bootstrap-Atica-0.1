@@ -236,6 +236,45 @@ h3 {
 .figure-one > div > .img {
     margin: 20px;
 }
+/* index*/
+.anticipo p {
+   
+    font-size: 30px;
+    font-weight: bold;
+    color: #f5dee9;
+    
+}
+.anticipo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.358)), url(./imagenes/otono-invierno.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    align-items: center;
+    justify-content:end;   
+}
+
+.anticipo a {
+    background-color: #a07b8d;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.anticipo a:hover {
+    background-color: aliceblue;
+    color: #a07b8d;
+}
+
 }
 
 /* generales-index*/
@@ -302,7 +341,7 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 60px;
+    margin: 25px;
     align-items: center;
     justify-content:end;   
 }
