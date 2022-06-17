@@ -167,7 +167,7 @@ h4  {
     margin: 50px;
 }
 
-/* Mobile first */
+/* Mobile first -- Media Queries*/
 
 @media (max-width: 480px) {
 
@@ -236,4 +236,88 @@ h3 {
 .figure-one > div > .img {
     margin: 20px;
 }
+}
+
+/* generales-index*/
+.hero-dos {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./imagenes/ropa-colgada-portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-tres {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./imagenes/ropa-colgada-uno.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-cuatro {
+    color: #f5dee9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.285), rgba(0, 0, 0, 0.261)), url(./imagenes/pantalones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Index*/
+.anticipo p {
+   
+    font-size: 30px;
+    font-weight: bold;
+    color: #f5dee9;
+    
+}
+.anticipo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.358)), url(./imagenes/otono-invierno.jpg);
+    width: 90%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px;
+    align-items: center;
+    justify-content:end;   
+}
+
+.anticipo a {
+    background-color: #a07b8d;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.anticipo a:hover {
+    background-color: aliceblue;
+    color: #a07b8d;
 }
